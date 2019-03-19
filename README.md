@@ -15,7 +15,7 @@ All of the HMTL was my own creation
 
                                                                        CSS
 
- 90% of the css I think the only CSS that isn't mine was the link colors in the 3 different states that was copied form a site.
+ 90% of the css is my own. I think the only CSS that isn't mine was the link colors in the 3 different states that was copied form a site.
 
  most of the css relates to the navbar.
 
