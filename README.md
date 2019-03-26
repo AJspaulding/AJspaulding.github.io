@@ -49,7 +49,7 @@ added background color and set max height of footer and header.
 
                                                                      JavaScript
 
-
+this funticon only works on the index page. you might need to refresh if you missed it.
 $(document).ready(function() {  $('#sale').delay(1000).fadeIn(2600).delay(3000).slideUp(2600);
 });
 
