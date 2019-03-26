@@ -4,7 +4,7 @@
 
 
 
-The main purpose of the site is to showcase what I learned in code Louisville and to showcase my photography skills. This is a single page site. the links for other pages do not work. the phone number and email does work.
+The main purpose of the site is to showcase what I learned in code Louisville and to showcase my photography skills. 
 
 
 
