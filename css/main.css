@@ -78,11 +78,13 @@ li{
   
   /* makes my pictures go to columns */
     img[src$=".jpg"] {
-    width: 19%;
+    width: 22%;
     flex: 50%;
     max-width: 50%;
     padding: 0 5px; 
   border-radius: 15px;}
+  
+
    
     img[src$=".svg"]
     {
@@ -175,7 +177,9 @@ li{
   font-family: 'Petit Formal Script', cursive;
   font-size: 42px !important; 
 } 
-
+.fancybox-nav span {
+  visibility:visible;
+}
   p1 {
    width: auto;
    font-size: 1em;
@@ -205,8 +209,7 @@ li{
     max-width: 40%;
 
   }
-  #modal img {
-    width: auto;}
+ 
 
   img[src$=".svg"]{
   width: 15%;

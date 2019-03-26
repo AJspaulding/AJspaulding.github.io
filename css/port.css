@@ -1,0 +1,315 @@
+
+/*the main purpose of the 2nd style sheet was to get the images to behave. On the main page they are controllled by width but the fancybox modal didn't like that. it may be easier in the future to change how i do the index page if time allows*/ 
+P1{
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(61, 1, 1);  
+  
+}
+
+#par{
+ text-align: center;
+ padding-bottom: 50px;
+}
+
+
+.gallery{
+ text-align: center;
+}
+footer {
+  margin-top: 10%;
+}
+
+
+
+.header, .nav, footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ justify-content: space-between;
+ 
+  
+}
+.nav{
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+img[src$=".svg"]:hover, #logo:hover{
+  background-color: white;
+}
+
+.header, footer{
+  background-color: #dfd9d9;
+  overflow: hidden;
+}
+
+#logo{
+ margin-left: -10%;
+ max-height: 90em;
+}
+
+h2{
+  text-align: center;
+  margin-left: 15%;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 18px !important; 
+
+}
+
+h1{
+  font-size: 24px !important; 
+
+}
+
+li{
+  
+  list-style: none;
+  
+}
+    .flexli{
+      text-align: center;
+    }
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
+    
+    /* visited link */  
+    a:visited {
+      color: black;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: white;
+    }
+    
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+ 
+  @media only screen and (min-width: 900px) {
+  
+  
+  img[src$=".jpg"] {
+    
+    display:inline-flex;
+    text-align: center ;
+    padding: 6px ; 
+    border-radius: 15px ;}
+
+   
+    img[src$=".svg"]
+    {
+      width: 40%;
+      flex: 50%;
+      max-width: 60%;
+      padding: 0 5px; }
+     
+   /* centers pictures */
+	
+    .first {
+      margin-left: 29.5%;
+ }
+ .header, .nav, footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ justify-content: space-between;
+}
+.nav{
+  flex-wrap: wrap;
+  text-align: center;}
+  p2 {
+    width: auto;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+   margin-left: 17em;
+   margin-right: 4em;
+  }
+  
+
+.header, footer{
+  background-color: #dfd9d9;
+  max-height: 85px;
+}
+#logo{
+ margin-left: -10%;
+ max-height: 90em;
+}
+
+
+li{
+  list-style: none;
+  width: 5em;
+  margin: 8px
+}
+    .flexli{
+      text-align: center;
+    }
+#flex4{
+    width: 6.5em;
+}}
+
+
+
+
+  
+
+  .title {
+      text-align: center;
+      font-family:'Open Sans', sans-serif; font-style: italicnormal; font-weight: 400;
+      
+      
+  }
+  #title1 {
+    text-align: center;
+    font-family:'Open Sans', sans-serif; font-style: italicnormal; font-weight: 400;
+    
+    
+}
+
+  body{
+    background-image: radial-gradient( rgb(215, 235, 243),white
+    );
+  }
+
+  /* fixed the float issue with flexbox */
+.about{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 12%;
+  flex-basis: 0;
+  margin-right: 20%; 
+
+}
+ 
+#sale{
+  display: none;
+  text-align: center;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 42px !important; 
+} 
+.fancybox-nav span {
+  visibility:visible;
+}
+  p1 {
+   width: auto;
+   font-size: 1em;
+   font-family: 'Lato', sans-serif;
+   color: rgb(61, 1, 1);  
+   margin-left: 1em;
+   text-indent: 1em;
+
+}
+
+
+
+#me {
+  width: 20%;
+  height: 15%;
+  
+}
+
+/* for small screens */
+
+@media only screen and (max-width: 900px) {
+  img[src$=".jpg"]{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    
+   
+  }
+  #modal img {
+    width: auto;}
+
+  img[src$=".svg"]{
+  width: 15%;
+  }
+   
+h2{
+  align-items: center;
+  margin-left: -1em;
+}
+
+  .header, .nav, footer {
+    display: flex;
+  
+  }
+  
+  .nav{
+    flex-basis: 10em;
+    margin-right: 20px;
+    margin-left: -30px;
+  }
+  .about{
+    margin-left: 0%;
+    margin-right: 3%;
+   }
+  
+  .header{
+    background-color: #dfd9d9;
+    
+  }
+  #logo{
+   margin-left: -12%;
+   max-width:10.5em;
+  }
+  
+
+  p2 {
+  margin-right: 1em;
+  }
+  li{
+ 
+    list-style: none;
+    
+   
+  }
+      .flexli{
+        text-align: center;
+      }
+ 
+      
+    
+    }
+/* nav bar was huge and name was off center */
+@media only screen and (max-width: 500px){
+h2{
+  align-items: center;
+  margin-left: -10%; 
+  font-size: 18px !important; 
+}
+.nav{
+   flex-basis: 15em;  
+ }
+ }
+ @media (min-width:900px)  and (max-width: 1154px){
+ .nav{
+   flex-shrink: 0;
+ }}
+/* phone number moved to second line */
+ @media (min-width:900px)  and (max-width: 974px){
+  .nav{
+    padding-inline-start: 20px;
+  }
+  
+  h2{
+    align-items: center;
+    margin-left: -12%; 
+    font-size: 18px !important; 
+  }}  
+/* phone number was cut off on SE */
+  @media only screen and (max-width: 360px) {
+    #logo {
+     max-width: 9em;}
+
+     h2{font-size: 17px !important; 
+    }
+  }
+
+
+  
